@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+  crossorigin="anonymous" 
+  referrerpolicy="no-referrer" /> 
+  <link rel="stylesheet" href="./css_contact/bootstrap.min.css">
+  <link rel="stylesheet" href="./css_contact/style.css">
+  <title>Contact Us</title>
+</head>
+<body>
+  
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container text-capitalize">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">breimbolo</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mx-auto my-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./Services.html">services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">contact us</a>
+            </li>
+          </ul>
+          <form class="d-flex my-2 my-lg-0">
+            <input
+              class="form-control me-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+            <button
+              class="border-0 bg-white"
+              type="submit"
+            >
+            <i class="fa-solid fa-magnifying-glass text-success border-0"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <section class="connect">
+    <div class="container bg-light">
+      <div class="row vh-100">
+        <div class="col-md-6 my-auto">
+          <h2 class="text-black">Contact Us</h2>
+          <p class="lead">Get in touch for personalized security solutions</p>
+        </div>
+        <div class="col-md-6 my-auto">
+          <div class="name">
+            <label for="Nm" class="form-label fw-bolder text-black fs-5">Name</label>
+            <input type="text" class="form-control" placeholder="Enter Your Name" id="Nm">
+            <p class="alert alert-danger d-none"></p>
+          </div>
+  
+          <div class="email my-5">
+            <label for="Em" class="form-label fw-bolder text-black fs-5">Email</label>
+            <input type="email" class="form-control" placeholder="Enter Your Email" id="Em">
+            <p class="alert alert-danger d-none"></p>
+          </div>
+  
+          <div class="massege">
+            <label for="Ms" class="form-label fw-bolder text-black fs-5">Massage</label>
+            <textarea name="Massage" id="Ms" class="form-control"></textarea>
+            <p class="alert alert-danger d-none"></p>
+          </div>
+          <button class="btn bg-black py-1 px-5 text-white btn-lg fs-6 mt-5" id="butn">Send Massage</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <script src="./js_contact/bootstrap.bundle.min.js"></script>
+  <script src="./js_contact/main.js"></script>
+</body>
+</html>
